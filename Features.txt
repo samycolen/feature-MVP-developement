@@ -1,0 +1,82 @@
+
+**** User Authentication 
+---> 
+As a user,
+I want to have a secure way to log in and access the platform,
+So that my data and interactions are protected.
+
+Acceptance Criteria:
+- [ ] Users can register for a new account in our s/s.
+- [ ] Users can log in with their credentials like email as ID and Password.
+- [ ] Passwords are securely stored (hashed) in the database.
+- [ ] Users can reset their password if forgotten.
+- [ ] Sessions are secure and encrypted.
+- [ ] Access to certain features is restricted to authenticated users.
+
+**** Drag and Drop Interface : 
+--->
+for non coder, we will provide a drag and drop interfeace where they can interact 
+w/t our s/s to implement the OpenAI services in their product
+
+process -
+- [ ] we ask the user to provide the code so our system can understand at the backend.
+- [ ] our Model understand code and provide an interface accordingly where user can implement 
+      the requirements.
+- [ ] 
+
+
+**** OpenAI API Integration:
+--->
+as a user, 
+- [ ] Users can connect their OpenAI API key to the platform.or else our system will create one for them....it not decided yet 
+- [ ] The system securely stores and manages OpenAI API keys.
+- [ ] Users can select the OpenAI service they want to integrate : 
+      1. GPT-4
+      2. Assistant API
+      3. TTS(Text to Speech)
+      4. DALL-E3
+      5. Whisper 
+      6. other
+- [ ] Users can input their specific requirements and instructions for the OpenAI service or it will be unerstand by our 
+      Model when they provide there code.
+- [ ] The system communicates effectively with OpenAI's API to generate responses or perform actions.
+- [ ] Users can review and manage their usage of OpenAI's API services.
+- [ ] The integration process is user-friendly and well-documented.
+- [ ] Develop the backend logic to seamlessly integrate OpenAI's API based on user input.
+
+ 
+
+**** Analytics Dashboard:
+--->
+   - Implement a dashboard for users to track usage analytics and performance metrics.
+
+
+**** User Profiles:
+    - Allow users to create and manage profiles with preferences and settings.
+
+**** Documentation:
+    - Provide comprehensive documentation to guide users on using the platform effectively.
+
+
+**** Security Measures:
+    - Incorporate security measures to protect user data and ensure a secure environment.
+
+**MVP (Minimum Viable Product) Features:
+
+- User Authentication
+- Drag-and-Drop Interface
+- OpenAI API Integration
+
+
+
+
+Stuff to remind : 
+
+4. **Code Interpreter Tool:**
+   - Implement a tool that translates snippets of code from one language to another.
+
+5. **Knowledge Retrieval:
+    - Create a feature that allows users to search and retrieve relevant information using OpenAI's API.
+
+6. **Function Calling:
+    - Enable users to build custom tools by invoking multiple functions at once.
